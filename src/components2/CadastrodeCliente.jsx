@@ -102,7 +102,7 @@ function CadastrodeCliente() {
         {/* COLUNA 2: LISTA DE PRODUTOS CADASTRADOS */}
         <Grid item xs={12} md={7}>
           <Typography variant="h6" gutterBottom>
-            Produtos no Sistema
+            Clientes cadastrados no Sistema
           </Typography>
           <Paper sx={{ maxHeight: 400, overflow: "auto" }}>
             <List>
