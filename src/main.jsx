@@ -10,17 +10,20 @@ import ExemploUseState from "./components/ExemploUseState";
 import ExemploEffect from "./components/exeEffect";
 import ContadorEstoque from "./components/ContadorEstoque";
 import CronometroSimples from "./components/CronoSimples";
+import ExemploSweetAlert from "./components/ExemploSweetAlert";
+import CadastrodeCliente from "./components2/CadastrodeCliente";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <FormaCadastro />
-    <Quantidade />
-    <FormPreferencias />
-    <FormConfiguracoes />
-    <CadastrodeProdutos />
-    <ExemploUseState />
-    <ExemploEffect />
-    <ContadorEstoque />
-    <CronometroSimples />
-  </StrictMode>,
+    {//<FormaCadastro />
+    //<Quantidade />
+    //<FormPreferencias />
+    //<FormConfiguracoes />
+    //<ExemploUseState />
+    //<ExemploEffect />
+    //<ContadorEstoque />
+    //<CronometroSimples />
+    //<ExemploSweetAlert />  
+    }<CadastrodeCliente />
+    </StrictMode>,
 );
